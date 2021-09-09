@@ -6,6 +6,7 @@ module Klaviyo
     LISTS = 'lists'
     MEMBERS = 'members'
     SUBSCRIBE = 'subscribe'
+    ALL = 'all'
 
     HTTP_DELETE = 'delete'
     HTTP_GET = 'get'
