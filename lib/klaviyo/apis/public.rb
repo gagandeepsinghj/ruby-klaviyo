@@ -1,5 +1,6 @@
 module Klaviyo
   module Public
+    HTTP_GET = 'get'
     # Used for identifying customers and managing profile properties
     #
     # @kwarg :id [String] the customer or profile id
