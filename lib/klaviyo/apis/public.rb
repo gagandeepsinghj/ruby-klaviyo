@@ -24,7 +24,7 @@ module Klaviyo
       properties[:id] = kwargs[:id] unless kwargs[:id].to_s.empty?
 
       params = {
-        :token => Klaviyo.public_api_key,
+        :token => @public_api_key,
         :properties => properties
       }
 
@@ -62,7 +62,7 @@ module Klaviyo
       customer_properties[:id] = kwargs[:id] unless kwargs[:id].to_s.empty?
 
       params = {
-        :token => Klaviyo.public_api_key,
+        :token => @public_api_key,
         :event => event,
         :properties => kwargs[:properties],
         :customer_properties => customer_properties
