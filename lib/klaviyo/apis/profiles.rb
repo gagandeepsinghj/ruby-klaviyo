@@ -6,6 +6,17 @@ module Klaviyo
 
     HTTP_GET = 'get'
     HTTP_PUT = 'put'
+    
+    METRIC = 'metric'
+    METRICS = 'metrics'
+    TIMELINE = 'timeline'
+
+    DEFAULT_COUNT = 100
+    DEFAULT_PAGE = 0
+    DEFAULT_SORT_DESC = 'desc'
+
+    CONTENT_JSON = 'application/json'
+    CONTENT_URL_FORM = 'application/x-www-form-urlencoded'
 
     # Retrieves the id of the profile given email
     # @param email [String] the email of the profile
