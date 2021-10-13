@@ -2,6 +2,17 @@ module Klaviyo
   module Metrics
     EXPORT = 'export'
     HTTP_GET = 'get'
+    
+    METRIC = 'metric'
+    METRICS = 'metrics'
+    TIMELINE = 'timeline'
+
+    DEFAULT_COUNT = 100
+    DEFAULT_PAGE = 0
+    DEFAULT_SORT_DESC = 'desc'
+
+    CONTENT_JSON = 'application/json'
+    CONTENT_URL_FORM = 'application/x-www-form-urlencoded'
 
     # Returns a list of all metrics in Klaviyo
     # @param page [Integer] which page to return, default 0
